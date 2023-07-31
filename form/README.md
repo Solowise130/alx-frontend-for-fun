@@ -1,4 +1,5 @@
 Forms
+<<<<<<< HEAD
 
 Resources
 
@@ -47,3 +48,5 @@ Fieldset: The Field Set element - HTML: Hypertext Markup Language | MDN --- http
 Author
 
 Solomon Iniodu
+=======
+>>>>>>> 36a3f1054d01f8cddf7ac522d6e763531dddcc90
