@@ -1,0 +1,26 @@
+/* Default styles for the body and headings */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Default link styles with no underline */
+h2 a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(currentColor, currentColor); /* Create a line with the current font color */
+    background-size: 100% 2px; /* Width of the line (100% of the element's width) and height of 2px */
+    background-repeat: no-repeat;
+    background-position: 0% 100%; /* Positioned at the bottom */
+    transition: background-size 0.3s ease; /* Transition effect for the underline */
+    background-size: 0% 2px; /* By default, the line's width is 0% (hidden) */
+}
+
+/* Hover effect for the link (underline appears smoothly) */
+h2 a:hover {
+    background-size: 100% 2px; /* On hover, the line's width is 100% (fully visible) */
+}
+
