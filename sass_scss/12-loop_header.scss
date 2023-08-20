@@ -1,0 +1,8 @@
+// Description: This Sass file creates H* tags with font sizes corresponding to their numerical value.
+// Using the @for directive to generate styles for h1 to h5.
+
+@for $i from 1 through 5 {
+    h#{$i} {
+        font-size: #{$i}px;
+    }
+}
