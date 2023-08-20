@@ -1,0 +1,8 @@
+// Description: This Sass file creates .col-* classes with varying widths.
+// Using the @for directive to generate styles for .col-1 to .col-4.
+
+@for $i from 1 through 4 {
+    .col-#{$i} {
+        width: percentage(1/$i);
+    }
+}
