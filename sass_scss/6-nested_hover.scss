@@ -1,10 +1,9 @@
-// Description: This Sass file assigns a specific text color to button tags and changes the color on hover.
+/* Nested hover change button color on hover */
 
-$color: #FF0000;
-$color2: #00FF00;
 button {
-	color: $color;
-	&:hover {
-		color: $color2;
-	}
+    color: #FF0000;
+
+    &:hover {
+        color: #00FF00;
+    }
 }
