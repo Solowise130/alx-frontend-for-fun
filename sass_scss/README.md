@@ -8,28 +8,27 @@ Resources
 
 + Sass references --- https://intranet.alxswe.com/rltoken/Pq23qrLxlxGpiintmVQ4zg
 
-
 Learning Objectives
 
-What Sass means
++ What Sass means
 
-How to write Sass & Scss file
++ How to write Sass & Scss file
 
-What is the difference between Sass and Scss
++ What is the difference between Sass and Scss
 
-What is the Sass preprocessing
++ What is the Sass preprocessing
 
-How to declare a variable
++ How to declare a variable
 
-How to use nested definition
++ How to use nested definition
 
-How to import a Sass file
++ How to import a Sass file
 
-How to use mixins
++ How to use mixins
 
-How to declare extend/inheritance styles
++ How to declare extend/inheritance styles
 
-How to manipulate operators
++ How to manipulate operators
 
 
 Install Sass/Scss on Ubuntu 18.04 LTS
@@ -45,6 +44,8 @@ Ruby Sass 3.7.4
 
 
 Tasks
+
+Below were the files created and their expected outputs;
 
 0-debug_log.scss --- Writes a Sass file that prints Hello world in the debug output.
 
