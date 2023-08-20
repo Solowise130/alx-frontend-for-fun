@@ -1,0 +1,12 @@
+// Description: This Sass file creates a class for each name in $list-names and assigns a background image based on the name.
+// Using @import to bring in any necessary dependencies and @each to iterate through the list.
+
+@import 'path-to-your-other-sass-file-if-needed';  // You can replace this with the actual path if needed.
+
+$list-names: john, jane, doe; // Sample list, you can expand this or import it from another file.
+
+@each $name in $list-names {
+    .#{$name} {
+        background-image: url('#{$name}.jpg');
+    }
+}
