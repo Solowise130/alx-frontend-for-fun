@@ -1,10 +1,15 @@
-body {
-    font-size: 14px;
+// Description: This Sass file assigns specific margin-left and margin-right values to body and div tags.
+// Using a mixin for setting horizontal margins.
 
-    h1 {
-        font-size: 16px;
-    }
-    h1.smaller {
-        font-size: 12px;
-    }
+@mixin horizontal-margin($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+body {
+    @include horizontal-margin(10px, 10px);
+}
+
+div {
+    @include horizontal-margin(15px, 15px);
 }
